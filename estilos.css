@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("Imagenes/tela2.jpg");
+}
+
+.frase{
+    float:left;
+    color:white;
+    font-size:30px;
+}
+
+.contenedor{
+    border:5px solid #AA000A;
+    border-radius: 20px;
+    width:60%;
+    margin:auto;
+    background-color: white;
+    padding:50px;
+}
+
+h1{
+    text-align: center;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+span{
+    color:#AA000A;
+    font-size:20px;
+}
+
+/* Min CEL */
+
+@media screen and(max-width:768px){
+    
+}
+
+.frase{
+    margin-left: 30px;
+}
+
+.contenedor{
+    margin-top:150px;
+    width:90%;
+    display:block;
+    margin-left:25px;
+    margin-bottom:25px;
+    margin:auto;
+    padding:8px;
+    font-size:20px;
+}
